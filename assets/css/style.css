@@ -13,9 +13,11 @@
 body {
 	margin-top: 70px;
 	background-color: #f2f2f2;
-
 }
 
+.nav {
+	margin-right: 10px;
+}
 #bio {
 	padding: 60px 50px 50px 50px;
 /*	background-color: #fff;
