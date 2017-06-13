@@ -34,8 +34,10 @@ h2 {
   height: 200px;
   margin: 20px 0 25px;
   overflow: auto;
-
+  background-size: cover;
+  background-position: center;
 }
+
 .work:nth-child(even) {
   margin-right: 40px;
 }
