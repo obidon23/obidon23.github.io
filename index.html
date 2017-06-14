@@ -23,7 +23,7 @@
 <body>
  
   <div class="container-fluid">
-    
+    <!-- This is the navigation bar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
   
       <div class="navbar-header">
@@ -33,7 +33,7 @@
           <span class="icon-bar"></span>
         </button>  
 
-         <p class="navbar-brand">Don Guckenberger</p>
+         <p class="p p-default navbar-brand">Don Guckenberger</p>
       </div>
   
       <div class="collapse navbar-collapse" id="mainNavBar">
@@ -48,46 +48,54 @@
  
    </nav>
   
-    
-      <div class="row">
+      <!-- This is the bio/portfolio/form section -->
+      <div class="row main-content">
 
-        <div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-10 col-xs-offset-1" id="main-content">
+        <div class="col-lg-7 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-10 col-xs-offset-1" >
 
-         <h2>About Me</h2>
-         <img src="assets/images/headshot.jpg" class="img-rounded img-responsive" width="100%" alt="Don Guckenberger">
+          <div class="row">
+            <div class="col-lg-12">
+              <h2>About Me</h2>
+                <div class="row">
+                  <div class="col-lg-6 headshot">
+                  <img src="assets/images/headshot.jpg" class="img-rounded img-responsive" width="100%" alt="Don Guckenberger">
+                </div>
 
+                <div class="col-lg-6 bio">
+                  <p>
+                    I have spent my career working in marketing for collegiate athletics, sports companies and small colleges. I have had the opportunity to build traditional and digital campaigns that run around the world. I have worked with internal and external design and development teams. Over the past few years of my career I have increasingly interfaced with web developers to build site redesigns and maintain sites. 
+                 </p>
+                  <p>
+                    Working with web developers has opened my eyes to a new world with sites and apps. As I transition into a new stage of my career, I look forward to combining my marketing experience with a new set of web development tools. I intend to be a full stack developer and may someday work in a specific field or as consultant.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>     
+      <!-- This is the connect section of the page -->
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-10" id="connect">
+        <div class="row">
+          <div class="col-lg-12">        
+            <h2>Connect with Me</h2>
+          </div>
+        </div>
+        <!-- This section shows the icons in a nice grid -->
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"> 
+              <a href="https://github.com/obidon23" target="_blank"><img src="assets/images/github-128.png" class="img img-default img-rounded" alt="GitHub" /></a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                  <a href="https://www.linkedin.com/in/don-guckenberger-m-s-3270bb7/" target="_blank"><img src="assets/images/linkedin-128.png" class="img img-default img-rounded" alt="LinkedIn" /></a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+              <a href="http://stackoverflow.com/users/7921937/d-guckenberger" target="_blank"><img src="assets/images/stackoverflow-128.png" class="img img-default img-rounded" alt="Stack Overflow" /></a>
+          </div>         
         </div>
 
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="bio">
-          <p>
-            I have spent my career working in marketing for collegiate athletics, sports companies and small colleges. I have had the opportunity to build traditional and digital campaigns that run around the world. I have worked with internal and external design and development teams. Over the past few years of my career I have increasingly interfaced with web developers to build site redesigns and maintain sites. 
-          </p>
-          <p>
-            Working with web developers has opened my eyes to a new world with sites and apps. As I transition into a new stage of my career, I look forward to combining my marketing experience with a new set of web development tools. I intend to be a full stack developer and may someday work in a specific field or as consultant.
-        </p>
       </div>
-      
-<!--       <div class="col-xs-1">
-      </div> -->
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-10" id="connect">
-        
-          <h2>Connect with Me</h2>
-        
-          <div class="row">
-              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"> 
-                <a href="https://github.com/obidon23" target="_blank"><img src="assets/images/github-128.png" class="img img-default img-rounded" alt="GitHub" /></a>
-              </div>
-              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"">
-                  <a href="https://www.linkedin.com/in/don-guckenberger-m-s-3270bb7/" target="_blank"><img src="assets/images/linkedin-128.png" class="img img-default img-rounded" alt="LinkedIn" /></a>
-              </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"">
-              <a href="http://stackoverflow.com/users/7921937/d-guckenberger" target="_blank"><img src="assets/images/stackoverflow-128.png" class="img img-default img-rounded" alt="Stack Overflow" /></a>
-            </div>         
-          </div>
+    </div>
 
-       </div>
-   
-   </div>
 
 
   <footer>
