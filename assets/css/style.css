@@ -49,6 +49,12 @@ h2 {
   background-position: center;
 }
 
+.work-md {
+  height: 125px;
+  margin: 10px 0 15px;
+
+}
+
 .work:nth-child(even) {
   margin-right: 40px;
 }
@@ -70,6 +76,10 @@ h2 {
   text-align: center;
   background: #4aaaa5;
   border-bottom: 0;
+}
+
+.work-md h3 {
+  font-size: 16px;
 }
 .auth-image {
   float: left;
